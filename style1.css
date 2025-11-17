@@ -1,6 +1,16 @@
+/* * تم تحديث الخطوط:
+ * - 'Cairo' للنص الأساسي، ليكون واضحاً وعصرياً على الشاشات.
+ * - 'Lemonada' أو 'Amiri' للعناوين لإضفاء طابع مميز ورشيق.
+ * يجب إضافة رابط تحميل الخطوط (Google Fonts Link) في ملف HTML.
+ */
 body {
-    /* Sets "Tajawal" as the primary font for the application, ensuring Arabic text is rendered beautifully. */
+    /* استخدام خط Cairo للنص الأساسي لسهولة القراءة ووضوح العرض الرقمي */
     font-family: 'Tajawal', sans-serif;
+}
+
+h1, h2, h3 {
+    /* استخدام خط Lemonada للعناوين لإضافة جمالية ورشاقة */
+    font-family: 'Lemonada', serif; 
 }
 
 /* * CHART CONTAINER STYLING 
